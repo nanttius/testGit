@@ -1,0 +1,39 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 200%;
+  }
+  #h101 {
+    color: black;
+    font-family: verdana;
+    font-size: 200%;
+    
+  }
+  #h102 {
+    color: black;
+    font-family: verdana;
+    font-size: 100%;
+  }
+  p {
+    color: black;
+    font-family: courier;
+    font-size: 100%;
+  }
+  #p01 {
+    border: 1px solid red;
+    padding: 10px;
+    font-family: courier;
+    font-size: 90%;
+    color: black;
+  }
+  p {
+    border: 1px solid red;
+    padding: 30px;
+  }
+  p {
+    border: 1px solid blue;
+    margin: 30px;
+  }

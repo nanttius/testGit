@@ -1,0 +1,328 @@
+@font-face { font-family: thaisansneue; src: url('fonts/thaisansneue-light-webfont.eot'); src: url('fonts/thaisansneue-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/thaisansneue-light-webfont.woff') format('woff'), url('fonts/thaisansneue-light-webfont.ttf') format('truetype'), url('fonts/thaisansneue-light-webfont.svg#thaisansneue-light-webfont') format('svg'); font-weight: normal; font-style: normal; } 
+
+@font-face { font-family: thaisansneue-bold; src: url('fonts/thaisansneue-bold-webfont.eot'); src: url('fonts/thaisansneue-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/thaisansneue-bold-webfont.woff') format('woff'), url('fonts/thaisansneue-bold-webfont.ttf') format('truetype'), url('fonts/thaisansneue-bold-webfont.svg#thaisansneue-bold-webfont') format('svg'); font-weight: normal; font-style: normal; }
+html { font-size: 12px; }
+
+body.PrintPage
+{
+    font-family: thaisansneue, Arial, Tahoma, Verdana, sans-serif;  
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;    
+    color: #505050;
+    letter-spacing :.5px;
+}
+
+.PrintPage .PrintPageDiv
+{
+    width: 650px;
+    margin: 10px auto;
+}
+.PrintPage h4
+{
+    font-size: 14px;
+}
+/*CheckoutComplete Begin*/
+.CheckoutCompleteHeadPanel
+{
+    text-align: center;
+}
+
+.CheckoutCompletePrintLinkButton
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.CheckoutCompletePrintLinkDiv
+{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+.CheckoutCompleteBackLinkDiv
+{
+    text-align: center;
+    text-decoration: none;
+     float: right;
+}
+
+.CheckoutCompleteOrderIDLabel
+{
+    text-align: center;
+    width: 100%;
+    margin: 15px 0;
+    font-weight: bold;
+    display: block;
+}
+
+.CheckoutCompleteTable
+{
+    width: 100%;
+    vertical-align: top;
+}
+/*CheckoutCompleteGridView Begin*/
+.CheckoutCompleteGridView
+{
+    border: solid 1px #f0f0f0;
+    width:100%;
+    clear: both;
+}
+
+.CheckoutCompleteGridViewHeaderStyle th
+{
+    background-color: #fbfcfe;
+    border: solid 1px #f0f0f0;
+    border-top: 0;
+    padding: 5px 2%;
+    font-weight: bold;
+    line-height: 28px;
+}
+td.CheckoutCompleteGridViewHeaderStyle 
+{
+    background-color: #fbfcfe;
+    padding: 5px 2%;
+    font-weight: bold;
+    line-height: 28px;
+}
+.CheckoutCompleteCustomerInfo td.CheckoutCompleteGridViewHeaderStyle,
+.CheckoutCompleteCustomerShippingInfo td.CheckoutCompleteGridViewHeaderStyle 
+{
+    border-bottom: solid 1px #f0f0f0!important;
+    padding: 5px 4%;
+}
+.CheckoutCompleteCustomerInfo .CheckoutCompleteCustomerDetailsTable td,
+.CheckoutCompleteCustomerShippingInfo .CheckoutCompleteShippingTable td
+{
+    line-height: 20px;
+    padding: 5px 4%;
+}
+.CheckoutCompleteGridViewHeaderStyle a:hover
+{
+    color: #B59E70;
+}
+.CheckoutCompleteGridViewRowStyle
+{
+    height: 32px;
+    color: #000; 
+    border-bottom: solid 1px #f0f0f0;
+}
+.CheckoutCompleteGridViewAlternatingRowStyle
+{
+    background-color: white;
+    border-bottom: solid 1px #f0f0f0;
+    height: 32px;
+    color: #000;
+}
+.CheckoutCompleteGridViewRowStyle > td,
+.CheckoutCompleteGridViewAlternatingRowStyle > td
+{
+    padding: 3px 2%;  
+    border-right: solid 1px #f0f0f0;
+}
+/* specific column style */
+.CheckoutCompleteGridView
+{
+    width: 100%;
+}
+
+.CheckoutCompleteGridViewPriceHeaderStyle
+{
+    width: 22%;
+    text-align: right;
+}
+
+.CheckoutCompleteGridViewUnitPriceHeaderStyle
+{
+    width: 18%;
+    text-align: right;
+}
+
+.CheckoutCompleteGridViewQuantityHeaderStyle
+{
+    width: 15%;
+    text-align: right;
+}
+
+.CheckoutCompleteGridViewPriceItemStyle
+{
+    text-align: right;
+}
+
+.CheckoutCompleteGridViewUnitPriceItemStyle
+{
+    text-align: right;
+}
+
+.CheckoutCompleteGridViewQuantityItemStyle
+{
+    text-align: right;
+}
+.CheckoutCompleteOrderSummaryColumn
+{
+    border: solid 1px #f0f0f0;
+    border-top: 0;
+}
+.CheckoutCompleteOrderSummaryTable
+{
+    width: 100%;    
+}
+.CheckoutCompleteSubtotalTable
+{
+    width: 100%;
+}
+.CheckoutCompleteSubtotalTable td
+{
+     line-height: 28px;
+}
+.CheckoutCompleteSubtotalLabel
+{
+    width: 54%;
+    padding: 3px 2%;
+    text-align: right;
+}
+
+.CheckoutCompleteSubtotalValue
+{
+    width: 15%;
+    padding: 3px 2% 3px 0;
+    text-align: right;
+}
+
+.CheckoutCompleteSubtotalTotalLabel 
+{
+    text-align: right;
+    color:#000;
+    height: 35px;
+    font-size: 15px;
+    padding: 3px 2%;
+    border-top: solid 1px #f0f0f0;font-family: thaisansneue-bold;
+}
+
+.CheckoutCompleteSubtotalTotalPrice 
+{
+    text-align: right;
+    color:#000;
+    font-size: 15px;
+    padding: 5px 2% 5px 0;
+    border-top: solid 1px #f0f0f0;font-family: thaisansneue-bold;
+}
+
+.CheckoutCompleteCustomerFormView
+{
+    width: 100%;
+}
+
+.CheckoutCompleteCustomerTable
+{
+    width: 100%; border-collapse: collapse;
+}
+.CheckoutCompleteCustomerTable td
+{
+    border: 0;
+    vertical-align: top;
+}
+.CheckoutCompleteCustomer 
+{
+    width: 100%;
+}
+.CheckoutCompleteCustomerTable .CheckoutCompleteCustomerShippingInfo
+{
+    border: solid 1px #f0f0f0;
+}
+.CheckoutCompleteCustomerTable .CheckoutCompleteCustomerInfo
+{
+    border: solid 1px #f0f0f0;
+}
+.CheckoutCompleteCustomerTable .infocolumn
+{
+    border: solid 1px #f0f0f0;
+}
+.CheckoutCompleteCustomerDetailsColumn
+{
+    border: solid 1px #f0f0f0!important;
+}
+.CheckoutCompleteCustomerTable  .CheckoutCompleteGridView,
+.CheckoutCompleteCustomerShippingInfo .CheckoutCompleteGridView,
+.CheckoutCompleteCustomerInfo .CheckoutCompleteGridView,
+.CheckoutCompleteCustomerShippingInfo .CheckoutCompleteCustomerDetailsColumn,
+.CheckoutCompleteCustomerInfo .CheckoutCompleteCustomerDetailsColumn
+{
+    width: 100%; vertical-align: top;
+    border: 0!important;
+}
+.CheckoutCompleteCustomerHeaderColumn
+{
+    line-height: 25px;
+    color: #555;
+    font-weight: bold;
+    padding: 0px 3px;
+}
+.CheckoutCompleteDetailsValueColumn
+{
+    border-right: solid 1px #f0f0f0;
+}
+.CheckoutCompleteCustomerDetailsTable
+{
+    width: 100%;
+}
+
+.CheckoutCompletePaymentTable
+{
+    width: 100%;
+}
+
+.CheckoutCompleteOrderCommentTable
+{
+    width: 100%;
+}
+
+.CheckoutCompleteShippingTable
+{
+    width: 100%;
+}
+ .CheckoutCompleteDetailsLabelColumn
+ {
+     width: 40%
+ }
+.CheckoutCompleteOrderCommentTable .CheckoutCompleteDetailsLabelColumn
+{
+    width: 23%;
+}
+
+/*CheckoutComplete End*/
+/*CheckoutComplete End*/
+.PrintButton,
+.CloseButton
+{
+    width: 100px;
+    cursor: pointer;
+    font-size: 11px; line-height: 28px;
+    margin: 0px 5px 2px 0; 
+    padding: 3px 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align:center; text-transform: uppercase;  letter-spacing: 1px;
+}
+.PrintButton
+{
+    color: #fff; background-color: #231f20;
+}
+
+.CloseButton
+{
+    color: #fff; background-color: #858585;
+}
+
+.PrintButton:hover
+{
+    color: #fff; background-color: #B59E70; 
+}
+.CloseButton:hover
+{
+     color: #fff; background-color: #666; 
+}

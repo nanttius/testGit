@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+        <body>
+            <form>
+                ชื่อ : <input type="text" value="" required  autofocus placeholder="ป้อนชื่อ"/><br>
+                รหัสผ่าน : <input type="password" value="" required placeholder="ป้อนรหัสผ่าน"/><br>
+                เบอร์โทร : <input type="tel" value="" required><br>
+                ค้นหาข้อมูล : <input type="search" value="" required/><br>
+                E-mail : <input type="email" value="" required/><br>
+                วันเกิด : <input type="date" value="" required/><br>
+                อายุ : <input type="number" value="" required/><br>
+                สีที่ชอบ : <input type="color"/>
+                สิ่งที่ชอบ : <input list="fav"/>
+                <datalist id="fav" required>
+                    <option>หมา</option>
+                    <option>แมว</option>
+                    <option>หมี</option>
+                </datalist>
+                <input type="submit" value="ยืนยันรายการ"/>
+                <input type="reset" value="ยกเลิก"/>
+
+            </form>
+        </body>
+</html>
